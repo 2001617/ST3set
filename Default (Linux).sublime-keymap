@@ -1,0 +1,8 @@
+[
+	{ "keys": ["ctrl+tab+a"], "command": "git_raw", "args": { "command": "git add -A" } },
+	{ "keys": ["ctrl+tab+m"], "command": "git_commit" },
+	{ "keys": ["win+s"], "command": "git_status" },
+	{ "keys": ["ctrl+tab+b"], "command": "git_branch" },
+        { "keys": ["ctrl+tab+l"], "command": "git_log" },
+	{ "keys": ["ctrl+tab+p"], "command": "git_raw", "args": { "command": "git push", "may_change_files": "false" } }
+]
