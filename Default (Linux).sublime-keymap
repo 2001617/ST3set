@@ -4,7 +4,7 @@
 	{ "keys": ["alt+shift+s"], "command": "git_status" },
 	{ "keys": ["alt+shift+b"], "command": "git_branch" },
 	{ "keys": ["alt+shift+d"], "command": "git_diff" },
-        { "keys": ["alt+shift+l"], "command": "git_log" },
+    { "keys": ["alt+shift+l"], "command": "git_log" },
 	{ "keys": ["alt+shift+p"], "command": "git_raw", "args": { "command": "git push", "may_change_files": "false" } },
 	{ "keys": ["alt+shift+p+l"], "command": "git_raw", "args": { "command": "git pull" } }
 ]
